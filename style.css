@@ -12,13 +12,12 @@ body {
 }
 
 #logo {
-    color: black;
+    color: ivory;
     padding-top: 70px;
     padding-bottom: 150px;
     font-weight: bold;
     
 }
-
 
 #content-main {
     background:url(images/TweetContain.png);
@@ -29,24 +28,39 @@ body {
     height: 363px;
 }
 
-#rightButton {
-    text-align: right;
-    padding-right: 150px;
+#tweetBox {
+    border-radius: 3px;
+    position: relative;
+    margin: auto;
+    padding: 50px 50px;
+    display: table;
+}
+
+#tweetText {
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    clear: both;
+}
+
+#buttonDiv {
+    height: 100px;
+    width: 740px;
+    display: block;
+    margin: auto;
+    cursor:pointer;
+    float: left;
 }
 
 #newButton {
-    position: absolute;
-    top: 50%;
     background-color: red;
-    margin: auto;
-}
-
-#leftButton {
-    padding-left: 20px;
-    padding-top: 200px;
+    float: right;
 }
 
 #twitterButton {
+    height: 48px;
+    padding-right: 30px;
+    padding-left: 30px;
     background-color: aqua;
     color: black;
     border-color: black;
@@ -57,8 +71,8 @@ body {
 }
 
 #footer {
-    padding-top: 230px;
-    padding-bottom:60px;
+    padding-top: 200px;
     margin-top: 60px;
     color: black; 
+    text-align: center;
 }
