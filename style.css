@@ -28,7 +28,7 @@ body {
     height: 363px;
 }
 
-#tweetBox {
+#quoteBox {
     border-radius: 3px;
     position: relative;
     margin: auto;
@@ -36,7 +36,7 @@ body {
     display: table;
 }
 
-#tweetText {
+#quoteText {
     text-align: center;
     width: 600px;
     height: 100px;
