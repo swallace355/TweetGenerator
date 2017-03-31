@@ -20,18 +20,19 @@ $("#newButton").on('click', function() {
 });
 
 });
-/*
+
 $(document).ready(function () {
- $('#btnTweet').click(function (e) {
- alert('hello11');
- var textToTweet = "Hi I am tweeting from here";
- if (textToTweet.length > 140) {
- alert('Tweet should be less than 140 Chars');
- }
- else {
- var twtLink = 'http://twitter.com/home?status=' +encodeURIComponent(textToTweet);
- window.open(twtLink,'_blank');
- }
+    $('#twitterButton').click(function() {
+        
+        var textToTweet = "";
+        textToTweet = document.getElementById("text").innerText;
+        alert("Now going to Twitter.");
+        if (textToTweet.length > 140) {
+            alert('Tweet should be less than 140 Chars');
+        }
+        else {
+        var twtLink = 'http://twitter.com/home?status=' +encodeURIComponent(textToTweet);
+        window.open(twtLink,'_blank');
+        }
+    });
  });
- });
-*/
