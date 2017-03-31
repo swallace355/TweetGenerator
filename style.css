@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
 
 body, div, h1, h2, h3, h4, h5, h6, p, ul, img {margin:0px; padding:0px; }
 
@@ -41,6 +43,8 @@ body {
     width: 600px;
     height: 100px;
     clear: both;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 #buttonDiv {
@@ -58,7 +62,7 @@ body {
 }
 
 #twitterButton {
-    height: 48px;
+    height:auto;
     padding-right: 30px;
     padding-left: 30px;
     background-color: aqua;
